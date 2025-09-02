@@ -18,9 +18,9 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">P</span>
+                <span className="text-primary-foreground font-bold text-sm">C</span>
               </div>
-              <span className="text-xl font-bold text-foreground">ProtexAI</span>
+              <span className="text-xl font-bold text-foreground">Cognify AI Consulting</span>
             </div>
             <p className="text-muted-foreground leading-relaxed">
               AI-powered workplace safety monitoring that prevents accidents before they happen. 
@@ -83,7 +83,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-muted-foreground" />
-                <span className="text-muted-foreground">sales@protexai.com</span>
+                <span className="text-muted-foreground">sales@cognifyai.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-muted-foreground" />
@@ -101,7 +101,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-muted-foreground">
-            © 2024 ProtexAI. All rights reserved.
+            © 2024 Cognify AI Consulting. All rights reserved.
           </div>
           <nav className="flex space-x-6 text-sm">
             <a href="#privacy" className="text-muted-foreground hover:text-foreground transition-smooth">

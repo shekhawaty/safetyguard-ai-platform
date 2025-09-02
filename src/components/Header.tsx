@@ -9,9 +9,9 @@ const Header = () => {
           <div className="flex items-center space-x-8">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">P</span>
+                <span className="text-primary-foreground font-bold text-sm">C</span>
               </div>
-              <span className="text-xl font-bold text-foreground">ProtexAI</span>
+              <span className="text-xl font-bold text-foreground">Cognify AI Consulting</span>
             </div>
             
             <nav className="hidden md:flex items-center space-x-6">
