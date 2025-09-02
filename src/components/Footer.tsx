@@ -45,17 +45,17 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Product</h4>
             <nav className="space-y-3">
-              <a href="#features" className="block text-muted-foreground hover:text-foreground transition-smooth">
+              <a href="#product" className="block text-muted-foreground hover:text-foreground transition-smooth">
                 Features
               </a>
-              <a href="#integrations" className="block text-muted-foreground hover:text-foreground transition-smooth">
-                Integrations
+              <a href="#contact" className="block text-muted-foreground hover:text-foreground transition-smooth">
+                Demo
               </a>
-              <a href="#pricing" className="block text-muted-foreground hover:text-foreground transition-smooth">
-                Pricing
+              <a href="#industries" className="block text-muted-foreground hover:text-foreground transition-smooth">
+                Solutions
               </a>
-              <a href="#api" className="block text-muted-foreground hover:text-foreground transition-smooth">
-                API Documentation
+              <a href="#home" className="block text-muted-foreground hover:text-foreground transition-smooth">
+                About
               </a>
             </nav>
           </div>
@@ -64,16 +64,16 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Solutions</h4>
             <nav className="space-y-3">
-              <a href="#construction" className="block text-muted-foreground hover:text-foreground transition-smooth">
+              <a href="#industries" className="block text-muted-foreground hover:text-foreground transition-smooth">
                 Construction
               </a>
-              <a href="#manufacturing" className="block text-muted-foreground hover:text-foreground transition-smooth">
+              <a href="#industries" className="block text-muted-foreground hover:text-foreground transition-smooth">
                 Manufacturing
               </a>
-              <a href="#logistics" className="block text-muted-foreground hover:text-foreground transition-smooth">
+              <a href="#industries" className="block text-muted-foreground hover:text-foreground transition-smooth">
                 Logistics
               </a>
-              <a href="#industrial" className="block text-muted-foreground hover:text-foreground transition-smooth">
+              <a href="#industries" className="block text-muted-foreground hover:text-foreground transition-smooth">
                 Industrial
               </a>
             </nav>

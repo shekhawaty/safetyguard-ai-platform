@@ -5,7 +5,7 @@ import { CheckCircle, ArrowRight } from "lucide-react";
 
 const CTA = () => {
   return (
-    <section className="py-24 bg-gradient-hero relative overflow-hidden">
+    <section id="contact" className="py-24 bg-gradient-hero relative overflow-hidden">
       <div className="absolute inset-0 bg-primary/10" />
       
       <div className="container mx-auto px-4 relative z-10">

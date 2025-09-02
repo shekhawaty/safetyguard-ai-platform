@@ -17,20 +17,17 @@ const Header = () => {
             </div>
             
             <nav className="hidden md:flex items-center space-x-6">
+              <a href="#home" className="text-muted-foreground hover:text-foreground transition-smooth">
+                Home
+              </a>
               <a href="#product" className="text-muted-foreground hover:text-foreground transition-smooth">
                 Product
-              </a>
-              <a href="#solutions" className="text-muted-foreground hover:text-foreground transition-smooth">
-                Solutions
               </a>
               <a href="#industries" className="text-muted-foreground hover:text-foreground transition-smooth">
                 Industries
               </a>
-              <a href="#resources" className="text-muted-foreground hover:text-foreground transition-smooth">
-                Resources
-              </a>
-              <a href="#about" className="text-muted-foreground hover:text-foreground transition-smooth">
-                About
+              <a href="#contact" className="text-muted-foreground hover:text-foreground transition-smooth">
+                Contact
               </a>
             </nav>
           </div>
