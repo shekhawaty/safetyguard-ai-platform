@@ -8,6 +8,7 @@ import {
   MapPin,
   Phone
 } from "lucide-react";
+import cognifyLogo from "@/assets/cognify-logo.png";
 
 const Footer = () => {
   return (
@@ -16,11 +17,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-6">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">C</span>
-              </div>
-              <span className="text-xl font-bold text-foreground">Cognify AI Consulting</span>
+            <div className="flex items-center space-x-3">
+              <img 
+                src={cognifyLogo} 
+                alt="Cognify AI Consulting" 
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-muted-foreground leading-relaxed">
               AI-powered workplace safety monitoring that prevents accidents before they happen. 
