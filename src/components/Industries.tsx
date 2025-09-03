@@ -9,6 +9,8 @@ import {
 } from "lucide-react";
 import constructionImage from "@/assets/construction-monitoring.jpg";
 import manufacturingImage from "@/assets/manufacturing-ai.jpg";
+import logisticsImage from "@/assets/logistics-safety.jpg";
+import industrialImage from "@/assets/industrial-facility.jpg";
 
 const Industries = () => {
   const industries = [
@@ -32,7 +34,7 @@ const Industries = () => {
       icon: Truck,
       title: "Logistics & Warehousing",
       description: "Track forklift operations, loading dock safety, and warehouse worker protection.",
-      image: constructionImage,
+      image: logisticsImage,
       benefits: ["60% reduction in forklift accidents", "Loading zone safety", "Ergonomic monitoring"],
       color: "text-primary"
     },
@@ -40,7 +42,7 @@ const Industries = () => {
       icon: Wrench,
       title: "Industrial Facilities",
       description: "Monitor chemical handling, confined spaces, and high-risk industrial operations.",
-      image: manufacturingImage,
+      image: industrialImage,
       benefits: ["Enhanced chemical safety", "Confined space monitoring", "Emergency response automation"],
       color: "text-accent"
     }
