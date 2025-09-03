@@ -1,16 +1,26 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
+import { useState } from "react";
 import cognifyLogo from "@/assets/cognify-logo.png";
+import LogoUploader from "./LogoUploader";
 
 const Header = () => {
+  const [currentLogo, setCurrentLogo] = useState(cognifyLogo);
+
+  const handleLogoProcessed = (logoUrl: string) => {
+    setCurrentLogo(logoUrl);
+  };
+
   return (
+    <>
+      <LogoUploader onLogoProcessed={handleLogoProcessed} />
     <header className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center space-x-8">
             <div className="flex items-center space-x-3">
               <img 
-                src={cognifyLogo} 
+                src={currentLogo} 
                 alt="Cognify AI Consulting" 
                 className="h-12 w-auto"
               />
@@ -46,6 +56,7 @@ const Header = () => {
         </div>
       </div>
     </header>
+    </>
   );
 };
 
