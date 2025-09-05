@@ -105,7 +105,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-muted-foreground">
-            © 2024 Cognify AI Consulting. All rights reserved.
+            © 2023 Cognify AI Consulting. All rights reserved.
           </div>
           <nav className="flex space-x-6 text-sm">
             <a href="#privacy" className="text-muted-foreground hover:text-foreground transition-smooth">
