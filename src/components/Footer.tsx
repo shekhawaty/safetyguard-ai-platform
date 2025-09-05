@@ -32,8 +32,10 @@ const Footer = () => {
               <Button variant="ghost" size="icon" className="hover:text-primary">
                 <Twitter className="w-5 h-5" />
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary">
-                <Linkedin className="w-5 h-5" />
+              <Button variant="ghost" size="icon" className="hover:text-primary" asChild>
+                <a href="https://www.linkedin.com/company/cognify-consulting-inc" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="w-5 h-5" />
+                </a>
               </Button>
               <Button variant="ghost" size="icon" className="hover:text-primary">
                 <Youtube className="w-5 h-5" />
